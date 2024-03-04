@@ -1,0 +1,38 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Body */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 164px 40px 40px 40px;
+}
+
+/* Card basic layout*/
+
+.card {
+
+    width: 336px;
+    padding: 16px;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & img {
+        width: 100%;
+    }
+
+    & .card__main {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
