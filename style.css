@@ -10,6 +10,10 @@
     src: url(/media/fonts/Sora.ttf);
 }
 
+* {
+    font-family: Sora;
+}
+
 
 /* Body */
 body {
