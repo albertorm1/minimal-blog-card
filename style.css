@@ -24,7 +24,7 @@ body {
 
 .card {
 
-    width: 336px;
+    width: min(100vw, 336px);
     padding: 16px;
     padding-bottom: 20px;
 
