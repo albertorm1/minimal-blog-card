@@ -47,7 +47,12 @@ body {
         gap: 16px;
 
         & .card__tag {
+            background-color: #E6D6FC;
+            color: #883AE1;
             font-size: 0.625rem;
+
+            width: min-content;
+            padding: 6px 16px;
         }
 
         & h2 {
