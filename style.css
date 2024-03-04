@@ -30,9 +30,7 @@ body {
 
 .card {
 
-    width: min(100vw, 336px);
-    padding: 16px;
-    padding-bottom: 0px;
+    width: min-content;
 
     display: flex;
     flex-direction: column;
@@ -43,11 +41,13 @@ body {
     border-radius: 10px;
 
     & img {
-        width: 100%;
+        width: 336px;
         border-radius: 10px;
     }
 
     & .card__main {
+
+        margin: 16px 16px 0 16px;
 
         display: flex;
         flex-direction: column;
@@ -78,10 +78,13 @@ body {
         }
     }
 
-    & .card__footer {
-
+    & hr {
+        border: none;
         border-top: 1px solid #E5EAF0;
-        padding: 20px 0;
+    }
+
+    & .card__footer {
+        margin: 0 16px 20px 16px;
 
         & .card__author {
             color: #6C727F;
