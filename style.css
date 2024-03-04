@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+/* Font */
+@font-face {
+    font-family: Sora;
+    src: url(/media/fonts/Sora.ttf);
+}
+
 
 /* Body */
 body {
@@ -31,6 +37,7 @@ body {
     }
 
     & .card__main {
+
         display: flex;
         flex-direction: column;
         gap: 16px;
