@@ -7,7 +7,7 @@
 /* Font */
 @font-face {
     font-family: Sora;
-    src: url(/media/fonts/Sora.ttf);
+    src: url(./media/fonts/Sora.ttf);
 }
 
 * {
